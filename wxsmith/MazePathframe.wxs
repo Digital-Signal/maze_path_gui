@@ -1,0 +1,4040 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="MazePathFrame">
+		<centered>1</centered>
+		<id_arg>0</id_arg>
+		<object class="wxGridSizer" variable="GridSizer1" member="no">
+			<cols>2</cols>
+			<rows>1</rows>
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<object class="wxGridSizer" variable="GridSizer2" member="no">
+						<cols>21</cols>
+						<rows>21</rows>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL3" variable="Panel3" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL4" variable="Panel4" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL5" variable="Panel5" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL6" variable="Panel6" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL7" variable="Panel7" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL8" variable="Panel8" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL9" variable="Panel9" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL10" variable="Panel10" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL11" variable="Panel11" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL12" variable="Panel12" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL13" variable="Panel13" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL14" variable="Panel14" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL15" variable="Panel15" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL16" variable="Panel16" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL17" variable="Panel17" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL18" variable="Panel18" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL19" variable="Panel19" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL20" variable="Panel20" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL21" variable="Panel21" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL22" variable="Panel22" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL23" variable="Panel23" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL24" variable="Panel24" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL25" variable="Panel25" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL26" variable="Panel26" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL27" variable="Panel27" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL28" variable="Panel28" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL29" variable="Panel29" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL30" variable="Panel30" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL31" variable="Panel31" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL32" variable="Panel32" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL33" variable="Panel33" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL34" variable="Panel34" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL35" variable="Panel35" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL36" variable="Panel36" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL37" variable="Panel37" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL38" variable="Panel38" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL39" variable="Panel39" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL40" variable="Panel40" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL41" variable="Panel41" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL42" variable="Panel42" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL43" variable="Panel43" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL44" variable="Panel44" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL45" variable="Panel45" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL46" variable="Panel46" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL47" variable="Panel47" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL48" variable="Panel48" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL49" variable="Panel49" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL50" variable="Panel50" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL51" variable="Panel51" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL52" variable="Panel52" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL53" variable="Panel53" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL54" variable="Panel54" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL55" variable="Panel55" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL56" variable="Panel56" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL57" variable="Panel57" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL58" variable="Panel58" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL59" variable="Panel59" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL60" variable="Panel60" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL61" variable="Panel61" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL62" variable="Panel62" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL63" variable="Panel63" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL64" variable="Panel64" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL65" variable="Panel65" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL66" variable="Panel66" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL67" variable="Panel67" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL68" variable="Panel68" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL69" variable="Panel69" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL70" variable="Panel70" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL71" variable="Panel71" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL72" variable="Panel72" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL73" variable="Panel73" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL74" variable="Panel74" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL75" variable="Panel75" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL76" variable="Panel76" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL77" variable="Panel77" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL78" variable="Panel78" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL79" variable="Panel79" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL80" variable="Panel80" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL81" variable="Panel81" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL82" variable="Panel82" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL83" variable="Panel83" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL84" variable="Panel84" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL85" variable="Panel85" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL86" variable="Panel86" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL87" variable="Panel87" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL88" variable="Panel88" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL89" variable="Panel89" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL90" variable="Panel90" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL91" variable="Panel91" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL92" variable="Panel92" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL93" variable="Panel93" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL94" variable="Panel94" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL95" variable="Panel95" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL96" variable="Panel96" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL97" variable="Panel97" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL98" variable="Panel98" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL99" variable="Panel99" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL100" variable="Panel100" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL101" variable="Panel101" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL102" variable="Panel102" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL103" variable="Panel103" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL104" variable="Panel104" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL105" variable="Panel105" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL106" variable="Panel106" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL107" variable="Panel107" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL108" variable="Panel108" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL109" variable="Panel109" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL110" variable="Panel110" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL111" variable="Panel111" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL112" variable="Panel112" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL113" variable="Panel113" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL114" variable="Panel114" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL115" variable="Panel115" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL116" variable="Panel116" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL117" variable="Panel117" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL118" variable="Panel118" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL119" variable="Panel119" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL120" variable="Panel120" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL121" variable="Panel121" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL122" variable="Panel122" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL123" variable="Panel123" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL124" variable="Panel124" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL125" variable="Panel125" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL126" variable="Panel126" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL127" variable="Panel127" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL128" variable="Panel128" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL129" variable="Panel129" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL130" variable="Panel130" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL131" variable="Panel131" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL132" variable="Panel132" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL133" variable="Panel133" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL134" variable="Panel134" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL135" variable="Panel135" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL136" variable="Panel136" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL137" variable="Panel137" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL138" variable="Panel138" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL139" variable="Panel139" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL140" variable="Panel140" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL141" variable="Panel141" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL142" variable="Panel142" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL143" variable="Panel143" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL144" variable="Panel144" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL145" variable="Panel145" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL146" variable="Panel146" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL147" variable="Panel147" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL148" variable="Panel148" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL149" variable="Panel149" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL150" variable="Panel150" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL151" variable="Panel151" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL152" variable="Panel152" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL153" variable="Panel153" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL154" variable="Panel154" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL155" variable="Panel155" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL156" variable="Panel156" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL157" variable="Panel157" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL158" variable="Panel158" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL159" variable="Panel159" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL160" variable="Panel160" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL161" variable="Panel161" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL162" variable="Panel162" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL163" variable="Panel163" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL164" variable="Panel164" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL165" variable="Panel165" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL166" variable="Panel166" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL167" variable="Panel167" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL168" variable="Panel168" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL169" variable="Panel169" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL170" variable="Panel170" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL171" variable="Panel171" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL172" variable="Panel172" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL173" variable="Panel173" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL174" variable="Panel174" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL175" variable="Panel175" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL176" variable="Panel176" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL177" variable="Panel177" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL178" variable="Panel178" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL179" variable="Panel179" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL180" variable="Panel180" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL181" variable="Panel181" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL182" variable="Panel182" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL183" variable="Panel183" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL184" variable="Panel184" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL185" variable="Panel185" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL186" variable="Panel186" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL187" variable="Panel187" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL188" variable="Panel188" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL189" variable="Panel189" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL190" variable="Panel190" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL191" variable="Panel191" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL192" variable="Panel192" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL193" variable="Panel193" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL194" variable="Panel194" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL195" variable="Panel195" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL196" variable="Panel196" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL197" variable="Panel197" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL198" variable="Panel198" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL199" variable="Panel199" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL200" variable="Panel200" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL201" variable="Panel201" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL202" variable="Panel202" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL203" variable="Panel203" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL204" variable="Panel204" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL205" variable="Panel205" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL206" variable="Panel206" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL207" variable="Panel207" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL208" variable="Panel208" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL209" variable="Panel209" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL210" variable="Panel210" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL211" variable="Panel211" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL212" variable="Panel212" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL213" variable="Panel213" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL214" variable="Panel214" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL215" variable="Panel215" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL216" variable="Panel216" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL217" variable="Panel217" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL218" variable="Panel218" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL219" variable="Panel219" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL220" variable="Panel220" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL221" variable="Panel221" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL222" variable="Panel222" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL223" variable="Panel223" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL224" variable="Panel224" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL225" variable="Panel225" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL226" variable="Panel226" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL227" variable="Panel227" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL228" variable="Panel228" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL229" variable="Panel229" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL230" variable="Panel230" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL231" variable="Panel231" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL232" variable="Panel232" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL233" variable="Panel233" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL234" variable="Panel234" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL235" variable="Panel235" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL236" variable="Panel236" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL237" variable="Panel237" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL238" variable="Panel238" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL239" variable="Panel239" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL240" variable="Panel240" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL241" variable="Panel241" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL242" variable="Panel242" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL243" variable="Panel243" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL244" variable="Panel244" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL245" variable="Panel245" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL246" variable="Panel246" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL247" variable="Panel247" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL248" variable="Panel248" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL249" variable="Panel249" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL250" variable="Panel250" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL251" variable="Panel251" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL252" variable="Panel252" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL253" variable="Panel253" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL254" variable="Panel254" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL255" variable="Panel255" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL256" variable="Panel256" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL257" variable="Panel257" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL258" variable="Panel258" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL259" variable="Panel259" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL260" variable="Panel260" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL261" variable="Panel261" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL262" variable="Panel262" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL263" variable="Panel263" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL264" variable="Panel264" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL265" variable="Panel265" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL266" variable="Panel266" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL267" variable="Panel267" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL268" variable="Panel268" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL269" variable="Panel269" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL270" variable="Panel270" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL271" variable="Panel271" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL272" variable="Panel272" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL273" variable="Panel273" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL274" variable="Panel274" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL275" variable="Panel275" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL276" variable="Panel276" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL277" variable="Panel277" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL278" variable="Panel278" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL279" variable="Panel279" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL280" variable="Panel280" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL281" variable="Panel281" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL282" variable="Panel282" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL283" variable="Panel283" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL284" variable="Panel284" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL285" variable="Panel285" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL286" variable="Panel286" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL287" variable="Panel287" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL288" variable="Panel288" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL289" variable="Panel289" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL290" variable="Panel290" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL291" variable="Panel291" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL292" variable="Panel292" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL293" variable="Panel293" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL294" variable="Panel294" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL295" variable="Panel295" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL296" variable="Panel296" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL297" variable="Panel297" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL298" variable="Panel298" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL299" variable="Panel299" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL300" variable="Panel300" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL301" variable="Panel301" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL302" variable="Panel302" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL303" variable="Panel303" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL304" variable="Panel304" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL305" variable="Panel305" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL306" variable="Panel306" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL307" variable="Panel307" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL308" variable="Panel308" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL309" variable="Panel309" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL310" variable="Panel310" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL311" variable="Panel311" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL312" variable="Panel312" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL313" variable="Panel313" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL314" variable="Panel314" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL315" variable="Panel315" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL316" variable="Panel316" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL317" variable="Panel317" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL318" variable="Panel318" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL319" variable="Panel319" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL320" variable="Panel320" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL321" variable="Panel321" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL322" variable="Panel322" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL323" variable="Panel323" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL324" variable="Panel324" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL325" variable="Panel325" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL326" variable="Panel326" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL327" variable="Panel327" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL328" variable="Panel328" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL329" variable="Panel329" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL330" variable="Panel330" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL331" variable="Panel331" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL332" variable="Panel332" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL333" variable="Panel333" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL334" variable="Panel334" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL335" variable="Panel335" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL336" variable="Panel336" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL337" variable="Panel337" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL338" variable="Panel338" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL339" variable="Panel339" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL340" variable="Panel340" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL341" variable="Panel341" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL342" variable="Panel342" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL343" variable="Panel343" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL344" variable="Panel344" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL345" variable="Panel345" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL346" variable="Panel346" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL347" variable="Panel347" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL348" variable="Panel348" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL349" variable="Panel349" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL350" variable="Panel350" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL351" variable="Panel351" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL352" variable="Panel352" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL353" variable="Panel353" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL354" variable="Panel354" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL355" variable="Panel355" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL356" variable="Panel356" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL357" variable="Panel357" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL358" variable="Panel358" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL359" variable="Panel359" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL360" variable="Panel360" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL361" variable="Panel361" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL362" variable="Panel362" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL363" variable="Panel363" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL364" variable="Panel364" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL365" variable="Panel365" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL366" variable="Panel366" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL367" variable="Panel367" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL368" variable="Panel368" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL369" variable="Panel369" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL370" variable="Panel370" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL371" variable="Panel371" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL372" variable="Panel372" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL373" variable="Panel373" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL374" variable="Panel374" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL375" variable="Panel375" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL376" variable="Panel376" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL377" variable="Panel377" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL378" variable="Panel378" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL379" variable="Panel379" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL380" variable="Panel380" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL381" variable="Panel381" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL382" variable="Panel382" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL383" variable="Panel383" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL384" variable="Panel384" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL385" variable="Panel385" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL386" variable="Panel386" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL387" variable="Panel387" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL388" variable="Panel388" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL389" variable="Panel389" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL390" variable="Panel390" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL391" variable="Panel391" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL392" variable="Panel392" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL393" variable="Panel393" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL394" variable="Panel394" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL395" variable="Panel395" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL396" variable="Panel396" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL397" variable="Panel397" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL398" variable="Panel398" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL399" variable="Panel399" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL400" variable="Panel400" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL401" variable="Panel401" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL402" variable="Panel402" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL403" variable="Panel403" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL404" variable="Panel404" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL405" variable="Panel405" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL406" variable="Panel406" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL407" variable="Panel407" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL408" variable="Panel408" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL409" variable="Panel409" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL410" variable="Panel410" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL411" variable="Panel411" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL412" variable="Panel412" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL413" variable="Panel413" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL414" variable="Panel414" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL415" variable="Panel415" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL416" variable="Panel416" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL417" variable="Panel417" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL418" variable="Panel418" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL419" variable="Panel419" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL420" variable="Panel420" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL421" variable="Panel421" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL422" variable="Panel422" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL423" variable="Panel423" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL424" variable="Panel424" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL425" variable="Panel425" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL426" variable="Panel426" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL427" variable="Panel427" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL428" variable="Panel428" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL429" variable="Panel429" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL430" variable="Panel430" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL431" variable="Panel431" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL432" variable="Panel432" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL433" variable="Panel433" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL434" variable="Panel434" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL435" variable="Panel435" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL436" variable="Panel436" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL437" variable="Panel437" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL438" variable="Panel438" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL439" variable="Panel439" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL440" variable="Panel440" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL441" variable="Panel441" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL442" variable="Panel442" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL443" variable="Panel443" member="yes">
+								<size>20,20</size>
+								<handler function="OnPanel3MouseEnter" entry="EVT_ENTER_WINDOW" />
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+					<size>513,477</size>
+					<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+						<label>Create Maze</label>
+						<pos>304,264</pos>
+						<size>200,32</size>
+						<handler function="CreateMaze" entry="EVT_BUTTON" />
+					</object>
+					<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+						<label>Find Path</label>
+						<pos>304,128</pos>
+						<size>200,32</size>
+						<handler function="FindPath" entry="EVT_BUTTON" />
+					</object>
+					<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+						<label>Clear</label>
+						<pos>160,408</pos>
+						<size>200,50</size>
+						<handler function="ClearMaze" entry="EVT_BUTTON" />
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+						<label>Ctrl = Wall || Shift = Erase || Ctrl+S = Start || Ctrl+E = End</label>
+						<pos>8,8</pos>
+						<size>496,32</size>
+						<style>wxALIGN_CENTRE|wxBORDER_STATIC</style>
+					</object>
+					<object class="wxChoice" name="ID_CHOICE1" variable="Path" member="yes">
+						<content>
+							<item>DFS</item>
+							<item>BFS</item>
+							<item>A* (A Star) Search Algorithm</item>
+						</content>
+						<pos>8,128</pos>
+						<size>288,32</size>
+					</object>
+					<object class="wxChoice" name="ID_CHOICE2" variable="Maze" member="yes">
+						<content>
+							<item>Randomized Prim&apos;s Algorithm</item>
+							<item>Randomized Kruskal&apos;s Algorithm</item>
+							<item>Recursive Backtracking</item>
+						</content>
+						<pos>8,264</pos>
+						<size>288,32</size>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>
