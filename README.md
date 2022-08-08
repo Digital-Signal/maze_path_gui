@@ -50,6 +50,10 @@ https://en.wikipedia.org/wiki/Maze_generation_algorithm
 
 https://en.wikipedia.org/wiki/A*_search_algorithm
 
+https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2
+
 https://en.wikipedia.org/wiki/Depth-first_search
+
+https://medium.com/swlh/solving-mazes-with-depth-first-search-e315771317ae
 
 https://en.wikipedia.org/wiki/Breadth-first_search
