@@ -3,28 +3,27 @@
 
 DFS
 
-![DFS](https://user-images.githubusercontent.com/95737827/182065025-2ba6d490-5b4d-473d-a034-86afab3894b4.gif)
+<img src="https://user-images.githubusercontent.com/95737827/182065025-2ba6d490-5b4d-473d-a034-86afab3894b4.gif" width="400" height="400">
 
 BFS
 
-![BFS](https://user-images.githubusercontent.com/95737827/182065031-30baa093-6025-4600-aec5-eff5514474e6.gif)
+<img src="https://user-images.githubusercontent.com/95737827/182065031-30baa093-6025-4600-aec5-eff5514474e6.gif" width="400" height="400">
 
 A Star
 
-![A_star](https://user-images.githubusercontent.com/95737827/182064960-3b05d115-30c0-423b-8de3-2918a76e77a1.gif)
+<img src="https://user-images.githubusercontent.com/95737827/182064960-3b05d115-30c0-423b-8de3-2918a76e77a1.gif" width="400" height="400">
 
 Randomized Prim's Algorithm
 
-![Prim's](https://user-images.githubusercontent.com/95737827/182065040-dd7f89d8-e9ae-4e87-aac3-e096de450961.gif)
+<img src="https://user-images.githubusercontent.com/95737827/182065040-dd7f89d8-e9ae-4e87-aac3-e096de450961.gif" width="400" height="400">
 
 Randomized Kruskal's Algorithm
 
-![Kruskal's](https://user-images.githubusercontent.com/95737827/182065051-0fc6aa07-d6b5-4f17-9d79-9ff0de9543c0.gif)
+<img src="https://user-images.githubusercontent.com/95737827/182065051-0fc6aa07-d6b5-4f17-9d79-9ff0de9543c0.gif" width="400" height="400">
 
 Recursive Backtracking
 
-![Backtracking](https://user-images.githubusercontent.com/95737827/182065058-6ebd2acf-f245-4923-a2ef-13a5bd937043.gif)
-
+<img src="https://user-images.githubusercontent.com/95737827/182065058-6ebd2acf-f245-4923-a2ef-13a5bd937043.gif" width="400" height="400">
 
 
 
